@@ -26,15 +26,17 @@ body {
 .text-shadow {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+   /* Hide scrollbar for WebKit (Chrome, Safari) */
+   ::-webkit-scrollbar {
+    display: none;
+  }
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
+  /* Hide scrollbar for Firefox */
+  body {
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE and Edge */
+  }
+  
 
 .card-hover {
   @apply transition-all duration-300 ease-in-out transform;
