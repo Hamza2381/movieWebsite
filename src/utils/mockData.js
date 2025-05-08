@@ -1,0 +1,297 @@
+// Mock data for movies
+export const movies = [
+    {
+      id: 1,
+      title: "Inception",
+      description: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      genre: ["Action", "Sci-Fi", "Thriller"],
+      year: 2010,
+      rating: 8.8,
+      duration: "2h 28m",
+      maturityRating: "PG-13",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      backdropImage: "https://wallpaperaccess.com/full/1264681.jpg",
+      trailerUrl: "https://www.youtube.com/embed/YoHD9XEInc0",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      cast: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+      director: "Christopher Nolan",
+      isTrending: true,
+      isNewRelease: false,
+    },
+    {
+      id: 2,
+      title: "The Matrix",
+      description: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      genre: ["Action", "Sci-Fi"],
+      year: 1999,
+      rating: 8.7,
+      duration: "2h 16m",
+      maturityRating: "R",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp2751453.jpg",
+      trailerUrl: "https://www.youtube.com/embed/vKQi3bBA1y8",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      cast: ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+      director: "Lana Wachowski",
+      isTrending: false,
+      isNewRelease: false,
+    },
+    {
+      id: 3,
+      title: "Interstellar",
+      description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      genre: ["Adventure", "Drama", "Sci-Fi"],
+      year: 2014,
+      rating: 8.6,
+      duration: "2h 49m",
+      maturityRating: "PG-13",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      backdropImage: "https://wallpaperaccess.com/full/1264644.jpg",
+      trailerUrl: "https://www.youtube.com/embed/zSWdZVtXT7E",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      cast: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+      director: "Christopher Nolan",
+      isTrending: true,
+      isNewRelease: false,
+    },
+    {
+      id: 4,
+      title: "Parasite",
+      description: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      genre: ["Drama", "Thriller"],
+      year: 2019,
+      rating: 8.6,
+      duration: "2h 12m",
+      maturityRating: "R",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp6573673.jpg",
+      trailerUrl: "https://www.youtube.com/embed/5xH0HfJHsaY",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      cast: ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
+      director: "Bong Joon Ho",
+      isTrending: false,
+      isNewRelease: true,
+    },
+    {
+      id: 5,
+      title: "Avengers: Endgame",
+      description: "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+      genre: ["Action", "Adventure", "Drama"],
+      year: 2019,
+      rating: 8.4,
+      duration: "3h 1m",
+      maturityRating: "PG-13",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp4057169.jpg",
+      trailerUrl: "https://www.youtube.com/embed/TcMBFSGVi1c",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      cast: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo"],
+      director: "Anthony Russo, Joe Russo",
+      isTrending: true,
+      isNewRelease: false,
+    },
+    {
+      id: 6,
+      title: "The Dark Knight",
+      description: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      genre: ["Action", "Crime", "Drama"],
+      year: 2008,
+      rating: 9.0,
+      duration: "2h 32m",
+      maturityRating: "PG-13",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp2555030.jpg",
+      trailerUrl: "https://www.youtube.com/embed/EXeTwQWrcwY",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      cast: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+      director: "Christopher Nolan",
+      isTrending: false,
+      isNewRelease: false,
+    },
+    {
+      id: 7,
+      title: "Joker",
+      description: "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+      genre: ["Crime", "Drama", "Thriller"],
+      year: 2019,
+      rating: 8.4,
+      duration: "2h 2m",
+      maturityRating: "R",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp4600209.jpg",
+      trailerUrl: "https://www.youtube.com/embed/zAGVQLHvwOY",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+      cast: ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz"],
+      director: "Todd Phillips",
+      isTrending: false,
+      isNewRelease: true,
+    },
+    {
+      id: 8,
+      title: "The Shawshank Redemption",
+      description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      genre: ["Drama"],
+      year: 1994,
+      rating: 9.3,
+      duration: "2h 22m",
+      maturityRating: "R",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp3632624.jpg",
+      trailerUrl: "https://www.youtube.com/embed/6hB3S9bIaco",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+      director: "Frank Darabont",
+      isTrending: false,
+      isNewRelease: false,
+    },
+    {
+      id: 9,
+      title: "Spider-Man: No Way Home",
+      description: "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+      genre: ["Action", "Adventure", "Fantasy"],
+      year: 2021,
+      rating: 8.3,
+      duration: "2h 28m",
+      maturityRating: "PG-13",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp10501212.jpg",
+      trailerUrl: "https://www.youtube.com/embed/JfVOs4VSpmA",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+      cast: ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
+      director: "Jon Watts",
+      isTrending: true,
+      isNewRelease: true,
+    },
+    {
+      id: 10,
+      title: "Pulp Fiction",
+      description: "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      genre: ["Crime", "Drama"],
+      year: 1994,
+      rating: 8.9,
+      duration: "2h 34m",
+      maturityRating: "R",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp7096961.jpg",
+      trailerUrl: "https://www.youtube.com/embed/s7EdQ4FqbhY",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      cast: ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+      director: "Quentin Tarantino",
+      isTrending: false,
+      isNewRelease: false,
+    },
+    {
+      id: 11,
+      title: "Dune",
+      description: "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+      genre: ["Action", "Adventure", "Drama"],
+      year: 2021,
+      rating: 8.0,
+      duration: "2h 35m",
+      maturityRating: "PG-13",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp9706050.jpg",
+      trailerUrl: "https://www.youtube.com/embed/8g18jFHCLXk",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+      cast: ["Timothée Chalamet", "Rebecca Ferguson", "Zendaya"],
+      director: "Denis Villeneuve",
+      isTrending: true,
+      isNewRelease: true,
+    },
+    {
+      id: 12,
+      title: "The Godfather",
+      description: "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      genre: ["Crime", "Drama"],
+      year: 1972,
+      rating: 9.2,
+      duration: "2h 55m",
+      maturityRating: "R",
+      thumbnail: "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      backdropImage: "https://wallpapercave.com/wp/wp2514415.jpg",
+      trailerUrl: "https://www.youtube.com/embed/sY1S34973zA",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      cast: ["Marlon Brando", "Al Pacino", "James Caan"],
+      director: "Francis Ford Coppola",
+      isTrending: false,
+      isNewRelease: false,
+    },
+  ];
+  
+  export const categories = [
+    { id: 1, name: "Action", slug: "action" },
+    { id: 2, name: "Adventure", slug: "adventure" },
+    { id: 3, name: "Comedy", slug: "comedy" },
+    { id: 4, name: "Crime", slug: "crime" },
+    { id: 5, name: "Drama", slug: "drama" },
+    { id: 6, name: "Fantasy", slug: "fantasy" },
+    { id: 7, name: "Horror", slug: "horror" },
+    { id: 8, name: "Mystery", slug: "mystery" },
+    { id: 9, name: "Romance", slug: "romance" },
+    { id: 10, name: "Sci-Fi", slug: "sci-fi" },
+    { id: 11, name: "Thriller", slug: "thriller" },
+  ];
+  
+  export const profiles = [
+    { id: 1, name: "Main Profile", avatar: "https://i.pravatar.cc/150?img=1" },
+    { id: 2, name: "Kids", avatar: "https://i.pravatar.cc/150?img=2" },
+    { id: 3, name: "Guest", avatar: "https://i.pravatar.cc/150?img=3" },
+  ];
+  
+  export const plans = [
+    { 
+      id: 1, 
+      name: "Basic", 
+      price: "$8.99", 
+      quality: "Good", 
+      resolution: "720p", 
+      devices: ["Phone", "Tablet", "Computer", "TV"],
+      features: ["Unlimited movies and TV shows", "Watch on 1 device at a time", "Download on 1 device"]
+    },
+    { 
+      id: 2, 
+      name: "Standard", 
+      price: "$13.99", 
+      quality: "Better", 
+      resolution: "1080p", 
+      devices: ["Phone", "Tablet", "Computer", "TV"],
+      features: ["Unlimited movies and TV shows", "Watch on 2 devices at a time", "Download on 2 devices", "HD available"]
+    },
+    { 
+      id: 3, 
+      name: "Premium", 
+      price: "$17.99", 
+      quality: "Best", 
+      resolution: "4K+HDR", 
+      devices: ["Phone", "Tablet", "Computer", "TV"],
+      features: ["Unlimited movies and TV shows", "Watch on 4 devices at a time", "Download on 6 devices", "HD and Ultra HD available", "Spatial Audio"]
+    },
+  ];
+  
+  // Filter helper functions
+  export const filterMoviesByGenre = (genre) => {
+    if (!genre) return movies;
+    return movies.filter(movie => movie.genre.includes(genre));
+  };
+  
+  export const filterTrendingMovies = () => {
+    return movies.filter(movie => movie.isTrending === true);
+  };
+  
+  export const filterNewReleases = () => {
+    return movies.filter(movie => movie.isNewRelease === true);
+  };
+  
+  export const searchMovies = (query) => {
+    if (!query) return [];
+    const lowercaseQuery = query.toLowerCase();
+    return movies.filter(movie => 
+      movie.title.toLowerCase().includes(lowercaseQuery) ||
+      movie.description.toLowerCase().includes(lowercaseQuery) ||
+      movie.genre.some(g => g.toLowerCase().includes(lowercaseQuery))
+    );
+  };
+  
+  export const getMovieById = (id) => {
+    return movies.find(movie => movie.id === parseInt(id));
+  };
